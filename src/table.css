@@ -1,0 +1,144 @@
+.address-list {
+    background-color: #1c1d2a;
+    color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    width: 320px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+}
+
+.address-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.address-list-header h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.icon-btn {
+    cursor: pointer;
+    color: #888;
+    transition: color 0.2s ease;
+}
+
+.icon-btn:hover {
+    color: #fff;
+}
+
+.search-wrapper {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 6px 8px 6px 28px;
+    border-radius: 6px;
+    border: none;
+    background-color: #2b2c3b;
+    color: white;
+    font-size: 14px;
+}
+
+.search-wrapper input::placeholder {
+    color: #aaa;
+}
+
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.filters label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    color: #aaa;
+    font-size: 12px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 6px;
+}
+
+.address-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.address-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.address-row:hover {
+    background-color: #2b2c3b;
+}
+
+.address-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.address-id {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.address-name {
+    font-size: 13px;
+}
+
+.address-share {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.icon {
+    font-size: 14px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon.hidden {
+    color: #666;
+}
+
+.icon.visible {
+    color: #ddd;
+}
+
+.address-row.selected {
+    background-color: #3a3b4f;
+    border: 1px solid #5f6fff;
+}
